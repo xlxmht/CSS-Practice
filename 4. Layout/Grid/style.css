@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin: 1rem;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+  font-size: 1.6rem;
+  line-height: 1.8;
+
+  width: 100%;
+  max-width: 768px;
+}
+
+.content p {
+  margin-top: 1.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.left-col {
+  grid-column: span 7;
+  border-right: 1px solid #ddd;
+}
+
+.right-col {
+  grid-column: span 5;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.sub-header, .row {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sub-header label, .row span {
+  padding: 0 1rem;
+}
+
+.left-col .header {
+  /* border-right: 3px solid #ddd; */
+}
+
+
+
+.left-col, .right-col {
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    /* grid-template-columns: 50% 50%; */
+  }
+  .sub-header label {
+    white-space: nowrap;
+  }
+}

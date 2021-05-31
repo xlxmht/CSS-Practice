@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="48" viewBox="0 0 42 48">
+  <g id="Group_6325" data-name="Group 6325" transform="translate(-51 -88)">
+    <g id="Group_4136" data-name="Group 4136" transform="translate(1 -15)">
+      <g id="Image_2" data-name="Image 2" transform="translate(50 103)" fill="#fff" stroke="#dedede" stroke-width="1">
+        <rect width="42" height="48" rx="8" stroke="none"/>
+        <rect x="0.5" y="0.5" width="41" height="47" rx="7.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_5553" data-name="Group 5553" transform="translate(-3158 -4683)">
+      <g id="Group_5552" data-name="Group 5552">
+        <g id="Rectangle_2033" data-name="Rectangle 2033" transform="translate(3223 4794)" fill="#fff" stroke="#ddd" stroke-width="1">
+          <path d="M5,0h5a4,4,0,0,1,4,4V7a1,1,0,0,1-1,1H1A1,1,0,0,1,0,7V5A5,5,0,0,1,5,0Z" stroke="none"/>
+          <path d="M5,.5h5A3.5,3.5,0,0,1,13.5,4V7a.5.5,0,0,1-.5.5H1A.5.5,0,0,1,.5,7V5A4.5,4.5,0,0,1,5,.5Z" fill="none"/>
+        </g>
+        <g id="Ellipse_26" data-name="Ellipse 26" transform="translate(3226 4788)" fill="#fff" stroke="#ddd" stroke-width="1">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

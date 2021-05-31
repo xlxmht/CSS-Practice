@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | Design</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/header.css" />
+  </head>
+  <body>
+    <header class="headerSection">
+      <div class="theme">
+        <div class="menu">
+          <div class="container-xxl container-xl container-lg container-md">
+            <div class="row">
+              <div class="col-md-5 col-lg-5">
+                <div class="logo-container">
+                  <div class="logo-mli">
+                    <a>
+                      <img src="./images/Logo Max Life.svg" alt="MLI Logo" />
+                    </a>
+                  </div>
+                  <div class="logo-axis">
+                    <a>
+                      <img src="./images/ax.svg" alt="Axis Bank Logo" />
+                    </a>
+                  </div>
+                  <div class="text-content">
+                    <p>Partner Portal <label>Last Updated: 12 - Aug - 2020, 12:30 PM</label></p>
+                  </div>
+                </div>
+                <!-- <div class="logo">
+                  <a>
+                    <img src="./images/ax.svg" alt="Axis Bank Logo" />
+                  </a>
+                </div> -->
+              </div>
+              <div class="col-md-7 col-lg-7">
+                <div class="row top-menu">
+                  <div class="col-md-12 col-lg-12">
+                    <h3>&nbsp;</h3>
+                  </div>
+                </div>
+                <div class="row white-bg right-menu">
+                  <div class="col-md-12 col-lg-12">
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-sm dropdown-toggle"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Month
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-sm dropdown-toggle"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Year
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-sm dropdown-toggle"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        MTD
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar">
+      <div class="container-xxl container-xl container-lg container-md">
+        <div class="row nav-container">
+          <div class="col-lg-3 greeting">
+            <div class="row">
+              <div class="col-2 col-left">
+                <img src="./images/Group 6325.svg" alt="User Pic" />
+              </div>
+              <div class="col-10 user-content">
+                <h5>Welcome, Amrit Bedi</h5>
+                <label><small>Axis Sr. Manager</small></label>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 main-nav">
+            <div class="btn-container">
+              <button class="btn-nav btn-left active">Management View</button>
+              <button class="btn-nav btn-right">Transactional View</button>
+            </div>
+          </div>
+          <div class="col-lg-3 cta-email">
+            <div class="cta-container">
+              <a>
+                <img src="./images/mail.svg" alt="Email" />
+                <label><small>Mail</small></label>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- FILTER SECTION -->
+    <section class="filter-section">
+      <div class="container-xxl container-xl container-lg container-md">
+        <div class="row">
+          <div class="col-lg-5">
+            <h5>Business Summary</h5>
+          </div>
+          <div class="col-lg-7">
+            <div class="filter-container">
+              <ul>
+                <li>
+                  <div class="filter-item">
+                    <label><small>Region</small></label>
+                    <img src="./images/search.svg" alt="Search" />
+                  </div>
+                </li>
+                <li>
+                  <div class="filter-item">
+                    <label><small>Circle</small></label>
+                    <!-- <img src="./images/search.svg" alt="Search" /> -->
+                  </div>
+                </li>
+                <li>
+                  <div class="filter-item">
+                    <label><small>Cluster</small></label>
+                    <!-- <img src="./images/search.svg" alt="Search" /> -->
+                  </div>
+                </li>
+                <li>
+                  <div class="filter-item">
+                    <label><small>Sol ID</small></label>
+                    <!-- <img src="./images/search.svg" alt="Search" /> -->
+                  </div>
+                </li>
+                <li>
+                  <div class="filter-item">
+                    <label><small>LG Designation</small></label>
+                    <!-- <img src="./images/search.svg" alt="Search" /> -->
+                  </div>
+                </li>
+                <li>
+                  <div class="filter-item">
+                    <label><small>Segment</small></label>
+                    <!-- <img src="./images/search.svg" alt="Search" /> -->
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BUSINESS SUMMARY -->
+    <section class="business-summary">
+      <div class="container-xxl container-xl container-lg container-md">
+        <div class="bs-section">
+          <div class="row bs-heading">
+            <div class="col-lg-3">
+              <label class="bs-header">Money Received </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 bs-content">
+              <ul>
+                <li>
+                  <span class="badge bg-secondary bs-badge">NOP</span>
+                </li>
+                <li class="first"><label>653</label></li>
+                <li class="second"><label>N/A</label></li>
+                <li class="third"><label>N/A</label></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 bs-content">
+              <ul>
+                <li>
+                  <span class="badge bg-secondary bs-badge"
+                    >Adj MFYP <br />
+                    (in Lacs)</span
+                  >
+                </li>
+                <li class="first"><label>653</label></li>
+                <li class="second"><label>N/A</label></li>
+                <li class="third"><label>N/A</label></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 bs-content">
+              <ul>
+                <li>
+                  <span class="badge bg-secondary bs-badge"
+                    >WPC <br />
+                    (in Lacs)</span
+                  >
+                </li>
+                <li class="first"><label>653</label></li>
+                <li class="second"><label>N/A</label></li>
+                <li class="third"><label>N/A</label></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bs-section">
+          <div class="row bs-heading">
+            <div class="col-lg-3">
+              <label class="bs-header">Stuck in system before Login </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 bs-content">
+              <ul>
+                <li>
+                  <span class="badge bg-secondary bs-badge">NOP</span>
+                </li>
+                <li class="first"><label>653</label></li>
+                <li class="second"><label>N/A</label></li>
+                <li class="third"><label>N/A</label></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 bs-content">
+              <ul>
+                <li>
+                  <span class="badge bg-secondary bs-badge"
+                    >Adj MFYP <br />
+                    (in Lacs)</span
+                  >
+                </li>
+                <li class="first"><label>653</label></li>
+                <li class="second"><label>N/A</label></li>
+                <li class="third"><label>N/A</label></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 bs-content">
+              <ul>
+                <li>
+                  <span class="badge bg-secondary bs-badge"
+                    >WPC <br />
+                    (in Lacs)</span
+                  >
+                </li>
+                <li class="first"><label>653</label></li>
+                <li class="second"><label>N/A</label></li>
+                <li class="third"><label>N/A</label></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bs-section">
+          <div class="row bs-heading">
+            <div class="col-lg-3">
+              <label class="bs-header">Policy Login </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 bs-content">
+              <ul>
+                <li>
+                  <span class="badge bg-secondary bs-badge">NOP</span>
+                </li>
+                <li class="first"><label>653</label></li>
+                <li class="second"><label>N/A</label></li>
+                <li class="third"><label>N/A</label></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 bs-content">
+              <ul>
+                <li>
+                  <span class="badge bg-secondary bs-badge"
+                    >Adj MFYP <br />
+                    (in Lacs)</span
+                  >
+                </li>
+                <li class="first"><label>653</label></li>
+                <li class="second"><label>N/A</label></li>
+                <li class="third"><label>N/A</label></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 bs-content">
+              <ul>
+                <li>
+                  <span class="badge bg-secondary bs-badge"
+                    >WPC <br />
+                    (in Lacs)</span
+                  >
+                </li>
+                <li class="first"><label>653</label></li>
+                <li class="second"><label>N/A</label></li>
+                <li class="third"><label>N/A</label></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GROUP BY -->
+    <section class="group-by-filter-section">
+      <div class="container-xxl container-xl container-lg container-md">
+        <div class="row">
+          <div class="col-lg-6 filter-left">
+            <div class="filter-container">
+              <h6>Group By</h6>
+              <ul>
+                <li>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">
+                    Current Period
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">
+                    Region
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-outline-secondary btn-sm active">
+                    Circle
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">
+                    Cluster
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">
+                    Sol ID
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">
+                    LG
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-outline-secondary btn-sm">
+                    Segment
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 filter-right">
+            <div>
+              <div class="input-group mb-3">
+                <button class="btn btn-outline-secondary dropdown-toggle btn-lg filter-segment" type="button">Segment(1)</button>
+                <button class="btn btn-outline-secondary dropdown-toggle btn-lg filter-filterby" type="button">Filter By(1)</button>
+                <input type="text" class="form-control" placeholder="Write here..." aria-label="Example text with two button addons">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GROUP BY CONTENT -->
+    <!-- <section class="group-by-table-content">
+      <div class="container-xxl container-xl container-lg container-md">
+        <div class="row">
+          <div class="col table-wrapper">
+            <ul>
+              <li>
+                <table class="table table-borderless">
+                  <thead class="table-dark">
+                    <tr>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                      <th scope="col">Handle</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                      <td>@fat</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <td>Larry the Bird</td>
+                      <td>Larry the Bird</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+              <li>
+                <table class="table table-borderless">
+                  <thead class="table-dark">
+                    <tr>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                      <th scope="col">Handle</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                      <td>@fat</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <td>Larry the Bird</td>
+                      <td>Larry the Bird</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </section> -->
+  </body>
+</html>
